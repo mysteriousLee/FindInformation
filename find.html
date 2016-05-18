@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- 3307978388625 -->
+<html>
+<head>
+	<title>find</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="web.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="findinformation.js"></script>
+</head>
+	<body>
+	    <div class = "logo">
+	    	<img src = "idcard.png" name = "idcard" onclick = "show(name)">
+	    	<img src = "phone.png" name = "phone" onclick = "show(name)">
+	    	<img src = "fastmail.png" name = "fastmail" onclick = "show(name)">
+	    	<img src = "tv.png" name = "tv" onclick = "show(name)">
+	    </div>
+	    <input type = "text" id = "input">
+	    <input type = "text" id = "inputtvid">
+	    <input type="text" id="inputtvtime">
+	    <input type = "submit" id = "submitdata" onclick = "SendData()">
+	    <div class="idcardfind" id ="idcard">
+	    	<table class = "idinformation">
+			    <tr >
+			    	<td>省份</td>
+			    	<td>城市</td>
+			    	<td>区县</td>
+			    	<td>性别</td>
+			    	<td>生日</td>
+			    </tr>
+	        </table>
+	    </div>
+	    <div class = "phonefind" id ="phone">
+	    	<table class = "phoneinformation">
+			    <tr>
+			    	<td>省份</td>
+			    	<td>城市</td>
+			    	<td>运营商</td>
+			    </tr>
+	        </table>
+	    </div>
+	    <div class = "fastmailfind" id ="fastmail">
+	    	<table class = "fastmailinformation">
+			    <tr >
+			    	<td>时间</td>
+			    	<td>状态</td>
+			    	<td>快递公司</td>
+			    	<td>快递单号</td>
+			    	<td>物流状态</td>
+			    </tr>
+	        </table>
+	    </div>
+	     <div class = "tvfind" id ="tv">
+	    	<table class = "tvinformation">
+			    <tr >
+			    	<td>电视频道ID</td>
+			    	<td>电视频道名称</td>
+			    	<td>日期</td>
+			    	<td>名称</td>
+			    	<td>开始时间</td>
+			    </tr>
+	        </table>
+	    </div>
+	</body>
+</html>
